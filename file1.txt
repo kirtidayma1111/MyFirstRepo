@@ -1,11 +1,11 @@
 Hello Git.......
 
 <<<<<<< HEAD
-change1
+Change 1
 =======
-change1
+Change 1
 
-change2
+Change 2
 
-change3
+Change 3
 >>>>>>> parent of 54bab06... New commit after revert and reset
