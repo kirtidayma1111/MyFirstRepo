@@ -1,0 +1,23 @@
+@(accounts: List[Application.Force.User])
+
+@main {
+
+    <h2>Salesforce Users</h2>
+
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>username</th>
+        </tr>
+        @accounts.map { account =>
+            <tr>
+                <td>@account.Id</td>
+                <td>@account.Name</td>
+                <td>@account.username</td>
+                
+            </tr>
+        }
+    </table>
+
+}
